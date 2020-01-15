@@ -27,6 +27,7 @@
 Si `Permission non accordée` : 
     
     sudo chmod +x ~/kafka-binance/scripts/createtopics.sh
+    ~/kafka-binance/scripts/createtopics.sh
     
 #### Lancement du producer :
     python ~/kafka-binance/scripts/getbinance.py
