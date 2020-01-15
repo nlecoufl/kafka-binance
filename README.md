@@ -6,7 +6,7 @@ Repository pour le projet de NoSQL
     pip install urllib kafka-python requests pymongo
     
 #### Cloner le repo :
-    git clone
+    git clone https://github.com/nlecoufl/kafka-binance
     
 #### Télécharger kafka :
     wget https://www-eu.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz
@@ -15,7 +15,8 @@ Repository pour le projet de NoSQL
 
 ### Instructions
 ####
-    cd 
+    cd kafka-binance
+    
 #### Lancer MongoDB :
     mongo
     
