@@ -25,7 +25,7 @@ Repository pour le projet de NoSQL
 #### Création des topics : 
     ~/kafka-binance/scripts/createtopics.sh
 
-Si accès refusé : 
+Si `Permission non accordée` : 
     
     sudo chmod +x ~/kafka-binance/scripts/createtopics.sh
     
