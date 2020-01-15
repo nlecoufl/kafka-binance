@@ -1,6 +1,7 @@
 # kafka-binance
 *Fait par Nicolas MATUSIAK et Nicolas LECOUFLET*
-Repository pour le projet de NoSQL : Application affichant le prix de plusieurs crypto en utilisant l'API Binance.
+
+**Repository pour le projet de NoSQL : Application affichant le prix de plusieurs crypto en utilisant l'API Binance.**
 
 
 ### Dépendences 
