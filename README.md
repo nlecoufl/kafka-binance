@@ -43,7 +43,7 @@ Si `Permission non accordée` :
 #### Lancement du Kstream :
     cd ~/kafka-binance/stream.examples
     mvn exec:java -Dexec.mainClass=myapps.Pipe
-Ensuite on peut vérifier que le topic `streams-pipe-output` est bien alimenté.
+Ensuite on peut vérifier que le topic `streams-pipe-output` est bien alimenté (stream simple provenant de `streams-plaintext-input`).
 
     cd path/to/kafka
     bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic streams-pipe-output --from-beginning
