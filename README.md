@@ -1,6 +1,7 @@
 # kafka-binance
-Repository pour le projet de NoSQL 
 *Fait par Nicolas MATUSIAK et Nicolas LECOUFLET*
+Repository pour le projet de NoSQL : Application affichant le prix de plusieurs crypto en utilisant l'API Binance.
+
 
 ### Dépendences 
 *Pré-requis : Git, Maven et MongoDB*
@@ -11,9 +12,6 @@ Repository pour le projet de NoSQL
     git clone https://github.com/nlecoufl/kafka-binance
 
 ### Instructions
-
-#### Lancer MongoDB :
-    mongo
     
 #### Lancer une instance Zookeeper :
     cd path/to/kafka
@@ -36,5 +34,16 @@ Si `Permission non accordée` :
     python ~/kafka-binance/scripts/monitorbinance.py
 *Infos : Affiche en temps réel si le cours d'une paire de crypto a baissé ou diminué*
 
-#### Lancement du stream :
+#### Alimentation MongoDB :
+    mongo
+    python ~/kafka-binance/scripts/mongo.py
+
+#### Lancement du Kstream :
+    cd ~/kafka-binance/stream.examples
+    mvn exec:java -Dexec.mainClass=myapps.Pipe
+Ensuite on peut vérifier que le topic `streams-pipe-output` est bien alimenté.
+
+    cd path/to/kafka
+    bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic streams-pipe-output --from-beginning
+
     
