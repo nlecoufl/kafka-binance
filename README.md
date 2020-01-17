@@ -4,7 +4,7 @@
 **Repository pour le projet de NoSQL** : Application récupérant le prix de plusieurs crypto en utilisant l'API Binance, et affichant en temps réel si elles ont pris de la valeur ou non.
 
 
-### Dépendences 
+### Dépendances 
 *Pré-requis : Git, Maven et MongoDB*
 
     pip install urllib kafka-python requests pymongo
