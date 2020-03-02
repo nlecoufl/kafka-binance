@@ -1,8 +1,4 @@
-# kafka-binance
-*Fait par Nicolas MATUSIAK et Nicolas LECOUFLET*
-
-**Repository pour le projet de NoSQL** : Application récupérant le prix de plusieurs crypto en utilisant l'API Binance, et affichant en temps réel si elles ont pris de la valeur ou non.
-
+# Kafka-binance
 
 ### Dépendances 
 *Pré-requis : Git, Maven et MongoDB*
